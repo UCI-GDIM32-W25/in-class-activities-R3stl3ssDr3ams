@@ -28,3 +28,10 @@ Hit enter TWICE to create a new line.
 
 ### Activity 3
 [https://docs.google.com/document/d/1FBSt1IHePMj8a95307bpUR8aoZhdvcjZGS16ntWBc2M/edit?tab=t.0]
+
+## W2
+### Activity 1
+
+
+### Activity 2
+[https://github.com/R3stl3ssDr3ams/mg2-R3stl3ssDr3ams/commit/59a28bf498782e65723b874a306b4519e38b765f]
