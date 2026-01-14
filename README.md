@@ -31,9 +31,12 @@ Hit enter TWICE to create a new line.
 
 ## W2
 ### Activity 1
-
+![IMG_2593](https://github.com/user-attachments/assets/c0202c74-d555-422d-918a-528169e72340)
 
 ### Activity 2
 [https://github.com/R3stl3ssDr3ams/mg2-R3stl3ssDr3ams/commit/59a28bf498782e65723b874a306b4519e38b765f]
+<<<<<<< HEAD
 
 Added sprite for penguin, and gave it the ability to jump after inputting the space key. Created a private bool to prevent player from jumping infinitely.
+=======
+>>>>>>> 7f995c48a39a33602c201768f5679c854e07a7d4
