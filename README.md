@@ -41,4 +41,4 @@ Added sprite for penguin, and gave it the ability to jump after inputting the sp
 ### Activity 0
 Jasmine Caicedo
 
-### Activity 1
+### Activity 3
