@@ -53,3 +53,7 @@ If more than one GameObject share the Locator script, they will delete themselve
 
 ### Activity 2
 <img width="1159" height="869" alt="image" src="https://github.com/user-attachments/assets/f66d4dfb-ebc7-459b-877c-ce0ff2d30181" />
+
+### Activity 3
+[https://github.com/R3stl3ssDr3ams/HW4]
+Added the sprites for the pipe and the bird in the scene, and added colliders in order to allow the pipe to be easily instiated and function with triggers for the player.
