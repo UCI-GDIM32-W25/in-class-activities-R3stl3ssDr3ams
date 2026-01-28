@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class W4Pigeon : MonoBehaviour
@@ -10,6 +11,8 @@ public class W4Pigeon : MonoBehaviour
     [SerializeField] private W4Seagull[] _seagulls;
     [SerializeField] private W4UI _ui;
     [SerializeField] private W4VFX _vfx;
+    public delegate void W4VFXDelegate();
+    public event W4VFXDelegate CooEvent;
 
     // HERE, add an event to tell other objects that the pigeon coo'd!
 
@@ -26,23 +29,10 @@ public class W4Pigeon : MonoBehaviour
     {
         Debug.Log("squack!");
 
+
         // do pigeon stuff
         _audio.Play();
         _animator.SetTrigger("wiggle");
-
-        // HERE, you'll want to REMOVE the code to "tell seagulls", "tell UI", and "tell VFX"
-        // instead, fire your coo event!
-        
-        // tell seagulls
-        foreach(W4Seagull seagull in _seagulls)
-        {
-            seagull.HandlePigeonCoo();
-        }
-
-        // tell UI
-        _ui.HandlePigeonCoo();
-
-        // tell VFX
-        _vfx.HandlePigeonCoo();
+        CooEvent?.Invoke();
     }
 }
