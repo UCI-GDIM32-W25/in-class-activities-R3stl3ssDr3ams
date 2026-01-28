@@ -50,3 +50,6 @@ Jasmine Caicedo
 
 ### Activity 1
 If more than one GameObject share the Locator script, they will delete themselves until one remains. This does not mean the object itself is deltered, however, just the script.
+
+### Activity 2
+<img width="1159" height="869" alt="image" src="https://github.com/user-attachments/assets/f66d4dfb-ebc7-459b-877c-ce0ff2d30181" />
