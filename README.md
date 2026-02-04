@@ -57,3 +57,31 @@ If more than one GameObject share the Locator script, they will delete themselve
 ### Activity 3
 [https://github.com/R3stl3ssDr3ams/HW4]
 Added the sprites for the pipe and the bird in the scene, and added colliders in order to allow the pipe to be easily instiated and function with triggers for the player.
+
+## W5
+### Activity 1
+I would be willing to keep the general form of these classes the same, and given that every item is unique, would maintain their seperation in classes in order to modify their behavior.
+If they all utilized the same mechanics and behaviors between them, I would create one class to use between all items using the inheritance from previous classes; that is not the case, however.
+
+### Activity 2
+Model : "ScriptableObjects"
+View: "DialogueBubble" and "InventoryUI"
+Controller: "Player Class"
+
+### Activity 3
+
+#### Scenario 1
+All beats would be attached to a set of prefabs with with a set Transform and SpriteRenderer, which would be associated with a ScriptableObject to set what key is bound to said beat. Beat would 
+be an abstract class with children depending on the type of beat in order to dictate it's speed and transform. A singleton would be used to script events in order to trigger UI and audio effects, 
+as well as destroying the beat game object on note hit. A finite state machine would be attached to a timer in order to dictate the point value that each beat will earn.
+
+#### Scenario 2
+Finite state machine would be useful for the growth state of plants which can be manipulated by the type of plant it dervies from. Plant bheavior would likely also derive from a parent abstract class 
+
+#### Scenario 3
+Model-View-Controller is used to take player action, through a Player Class, and bring it to the view by modifying the appropriate data through ScriptableObjects, this can include modifying 
+the health values of the player or the opponent.
+
+### Activity 4
+Present Members: Jasmine Caicedo, Eli Gutierrez, and myself.
+First Draft [https://docs.google.com/document/d/1GxlGKB6HPG_Q6x96TOvyybNU5x_lLUS-DKCN9NGH8AQ/edit?tab=t.0]
