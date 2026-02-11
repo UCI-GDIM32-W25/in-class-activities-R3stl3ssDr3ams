@@ -85,3 +85,12 @@ the health values of the player or the opponent.
 ### Activity 4
 Present Members: Jasmine Caicedo, Eli Gutierrez, and myself.
 First Draft [https://docs.google.com/document/d/1GxlGKB6HPG_Q6x96TOvyybNU5x_lLUS-DKCN9NGH8AQ/edit?tab=t.0]
+
+## W6
+### Activity 1
+Gizmos would be particularly useful for being able to visualize and directly tweak several elements within the scene, such as collision between objects, which would be needed to facillitate 
+interaction and ensure it happens on an even pace. Breakpoints would likewise be useful in debugging to visualize what is and isn't working, which would in theory improve our productivity.
+
+### Activity 2
+Attendance: Jasmine Caicedo, Eli Gutierrez, and myself.
+Final Draft [https://docs.google.com/document/d/1GxlGKB6HPG_Q6x96TOvyybNU5x_lLUS-DKCN9NGH8AQ/edit?tab=t.0]
