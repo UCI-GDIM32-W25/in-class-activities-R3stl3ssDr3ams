@@ -94,3 +94,22 @@ interaction and ensure it happens on an even pace. Breakpoints would likewise be
 ### Activity 2
 Attendance: Jasmine Caicedo, Eli Gutierrez, and myself.
 Final Draft [https://docs.google.com/document/d/1GxlGKB6HPG_Q6x96TOvyybNU5x_lLUS-DKCN9NGH8AQ/edit?tab=t.0]
+
+## W7
+### Activity 1
+Raycasting allow vectors to determine sightlines in between objects, which can be used alongside enums to incite behavioral changes. Since the raycast has it's own collision, it can identify 
+the tag with objects it collides with.
+
+### Activity 2
+Attendance: Jasmine Caicedo, Eli Gutierrez, and myself.
+
+### Activity 3
+[]
+
+### Activity 4
+[https://trello.com/b/1inv3wX9/tasks-for-melt-ice]
+
+### Activity 5
+[https://github.com/the-elig/GDIM32-Final/blob/main/Melt%20ICE/Assets/Scripts/GameController.cs]
+Created a simple GameController class with a locator to find player as a singleton for events which we plan to introduce as we develop this project. Enums are also created as its own member variable, 
+which will be used as to instill changes in behavior when both the NPC and Item classes are introduced.
