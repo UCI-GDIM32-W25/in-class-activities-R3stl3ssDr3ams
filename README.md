@@ -104,12 +104,14 @@ the tag with objects it collides with.
 Attendance: Jasmine Caicedo, Eli Gutierrez, and myself.
 
 ### Activity 3
-[]
+<img width="1177" height="872" alt="image" src="https://github.com/user-attachments/assets/35b8799f-bac6-4750-9fc9-ff2141d72023" />
+
 
 ### Activity 4
 [https://trello.com/b/1inv3wX9/tasks-for-melt-ice]
 
 ### Activity 5
 [https://github.com/the-elig/GDIM32-Final/blob/main/Melt%20ICE/Assets/Scripts/GameController.cs]
+
 Created a simple GameController class with a locator to find player as a singleton for events which we plan to introduce as we develop this project. Enums are also created as its own member variable, 
 which will be used as to instill changes in behavior when both the NPC and Item classes are introduced.
