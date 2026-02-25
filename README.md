@@ -115,3 +115,21 @@ Attendance: Jasmine Caicedo, Eli Gutierrez, and myself.
 
 Created a simple GameController class with a locator to find player as a singleton for events which we plan to introduce as we develop this project. Enums are also created as its own member variable, 
 which will be used as to instill changes in behavior when both the NPC and Item classes are introduced.
+
+## W8
+### Activity 1
+Post-processing can outline visial effects within a unity project, and unity packages can be used as an asset in order to import directly into the scene. These packages can be properlly adjusted under 
+the Inspector.
+
+### Activity 2
+Attendance: Jasmine Caicedo, Eli Gutierrez, and myself.
+
+### Activity 3
+
+### Activity 4
+I plan to work on loading new scenes and implementing some of the inventory UI.
+
+### Activity 5
+[https://github.com/the-elig/GDIM32-Final/commit/f5ce4c7754f615e64076c35b62718f9d83ed2401]
+Updated assets on the main scene to allow player to switch to a new scene if it interacts with an object with the correct tags. Also moved to locator to the player class in order to streamline singleton event usage 
+as well as to not destroy it between scenes and, hopefully, maintain its inventory specifically.
