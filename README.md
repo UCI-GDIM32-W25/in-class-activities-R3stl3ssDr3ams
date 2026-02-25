@@ -125,11 +125,14 @@ the Inspector.
 Attendance: Jasmine Caicedo, Eli Gutierrez, and myself.
 
 ### Activity 3
+![IMG_3015](https://github.com/user-attachments/assets/91ef2c21-86cb-4fd0-aaa2-159793477995)
 
 ### Activity 4
 I plan to work on loading new scenes and implementing some of the inventory UI.
 
 ### Activity 5
 [https://github.com/the-elig/GDIM32-Final/commit/f5ce4c7754f615e64076c35b62718f9d83ed2401]
+<img width="1597" height="751" alt="Screenshot 2026-02-24 202146" src="https://github.com/user-attachments/assets/f7fdffca-1fd0-4f6c-9a47-3708f71b8e3e" />
+
 Updated assets on the main scene to allow player to switch to a new scene if it interacts with an object with the correct tags. Also moved to locator to the player class in order to streamline singleton event usage 
 as well as to not destroy it between scenes and, hopefully, maintain its inventory specifically.
