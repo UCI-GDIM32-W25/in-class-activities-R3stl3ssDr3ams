@@ -136,3 +136,22 @@ I plan to work on loading new scenes and implementing some of the inventory UI.
 
 Updated assets on the main scene to allow player to switch to a new scene if it interacts with an object with the correct tags. Also moved to locator to the player class in order to streamline singleton event usage 
 as well as to not destroy it between scenes and, hopefully, maintain its inventory specifically.
+
+## W9
+### Activity 1
+Scaling: You know your code will scale well when the program being written can actually handle large amounts of data. This means it's performant, and easy for users to understand / build from. One can hard code all functions within scripts, but it's simpler to create a state machine, or establish an event system, that aid in moving between different states of the game. For future reference, it would be easier to work with collaborators if all code were to scale well.
+
+Dialogue should be a ScriptableObject
+DialogueController class can determine which NPC is being interacted with and what prompts to include.
+
+### Activity 2
+Attendance: Jasmine Caicedo, Eli Gutierrez, and myself.
+
+### Activity 3
+[https://docs.google.com/document/d/1b0oo95CZ6u7DW9ZBhBZXP5bItpNVOOE1IcDawrM76n0/edit?tab=t.0]
+
+### Activity 4
+I plan to work mainly on fixing a bug where characters frim the first scene, who were intentionally given the DontDestroy script due to their properties that they would need ot keep between scenes, would still appear before the player between scenes.
+
+### Activity 5
+I was having several complications creating a function that would definitively run after a new scene loaded; ultimately, checking the scene name within an updata functioin turned out to be the most effective option, even if not the most efficient. I plan to come to this at a later date, however.
