@@ -154,4 +154,6 @@ Attendance: Jasmine Caicedo, Eli Gutierrez, and myself.
 I plan to work mainly on fixing a bug where characters frim the first scene, who were intentionally given the DontDestroy script due to their properties that they would need ot keep between scenes, would still appear before the player between scenes.
 
 ### Activity 5
+<img width="992" height="724" alt="Screenshot 2026-03-03 230250" src="https://github.com/user-attachments/assets/8ed2350d-4404-4118-9557-2748ef5c372f" />
+
 I was having several complications creating a function that would definitively run after a new scene loaded; ultimately, checking the scene name within an updata functioin turned out to be the most effective option, even if not the most efficient. I plan to come to this at a later date, however.
