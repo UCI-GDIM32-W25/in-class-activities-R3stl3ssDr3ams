@@ -169,6 +169,8 @@ Game was received well, with players complimenting the visual design and music. 
 The project is close to finishing; as said, last week, the fundamentals have been set to allow the project to advance smoothly, and we're approaching the end. All to say that our project should closely resemenble the project that we pitched, even if we had to scale down the scope of our environment.
 
 ### Activity 4
+<img width="886" height="495" alt="Screenshot 2026-03-10 233003" src="https://github.com/user-attachments/assets/516828f9-7e5c-4b3c-8eb8-b1d8a7ab83f7" />
+
 In large part, I worked on bug fixing alongside Eli and the rest of the LAs, as we encountered a bug where objects that would function in one scene would stop working in another. We found it was an error in moving the event system between scenes, but my commit looks rather scarce since most of my work is reflected within Eli's commit. Regardless, on my behalf I worked on a series of bugs that needed fixing, including:
 1.  double sister
 2. double neighbor
