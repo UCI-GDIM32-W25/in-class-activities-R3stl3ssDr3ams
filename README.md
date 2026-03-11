@@ -157,3 +157,21 @@ I plan to work mainly on fixing a bug where characters frim the first scene, who
 <img width="992" height="724" alt="Screenshot 2026-03-03 230250" src="https://github.com/user-attachments/assets/8ed2350d-4404-4118-9557-2748ef5c372f" />
 
 I was having several complications creating a function that would definitively run after a new scene loaded; ultimately, checking the scene name within an updata functioin turned out to be the most effective option, even if not the most efficient. I plan to come to this at a later date, however.
+
+## W10
+### Activity 1
+Attendance: Jasmine Caicedo, Eli Gutierrez, and myself.
+
+### Activity 2
+Game was received well, with players complimenting the visual design and music. Bugs, however, persist in our build, with the sister still spawning in the main scene, and the cup duplicating within the scene.
+
+### Activity 3
+The project is close to finishing; as said, last week, the fundamentals have been set to allow the project to advance smoothly, and we're approaching the end. All to say that our project should closely resemenble the project that we pitched, even if we had to scale down the scope of our environment.
+
+### Activity 4
+In large part, I worked on bug fixing alongside Eli and the rest of the LAs, as we encountered a bug where objects that would function in one scene would stop working in another. We found it was an error in moving the event system between scenes, but my commit looks rather scarce since most of my work is reflected within Eli's commit. Regardless, on my behalf I worked on a series of bugs that needed fixing, including:
+1.  double sister
+2. double neighbor
+3. cup respawn
+4. key respawn
+5. only one inventory slot at a time
